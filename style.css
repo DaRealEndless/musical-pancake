@@ -1,0 +1,27 @@
+h3 {
+    font-size: 25px !important;
+}
+
+.btn-success:hover {
+    background-color: red;
+}
+
+.btn-success {
+    font-size: 17px;
+}
+
+canvas {
+    animation-name: clownfunni;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes clownfunni {
+    from {
+        box-shadow: 1px 1px 38px palevioletred;
+    }
+
+    to {
+        box-shadow: 1px 1px 38px hotpink;
+    }
+}
